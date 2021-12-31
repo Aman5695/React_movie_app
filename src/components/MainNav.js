@@ -9,6 +9,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import WhatshotIcon from '@material-ui/icons/Whatshot';
 import {useNavigate} from 'react-router-dom';
 
+
 const useStyles = makeStyles({
     root:{
         width: "100%",
