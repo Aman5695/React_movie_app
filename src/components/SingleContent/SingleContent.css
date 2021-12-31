@@ -1,0 +1,46 @@
+.media{
+    display: flex;
+    flex-direction:column;
+    width: 180px;
+    padding: 10px;
+    margin: 5px 1px;
+    background-color: rgb(202, 199, 199);
+    border-radius: 12px;
+    color: black;
+    position: relative ;
+    font-family: 'Cairo', sans-serif'Cairo', sans-serif;
+    
+}
+
+.media:hover{
+    color: white;
+    background-color: black;
+    /* transform: scale(1.1, 1.1); */
+}
+
+@media (max-width : 550px){
+    .media{
+        width: 45%;
+    }
+}
+
+.poster{
+    border-radius: 10px;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    padding: 8px 0;
+}
+
+.subtitle{
+    display: flex;
+    /* align-content: space-between; */
+    justify-content: space-between;
+    padding-bottom: 3px;
+    padding: 0 2px;
+   
+    font-size: 12px;
+}
